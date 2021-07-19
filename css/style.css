@@ -1,11 +1,11 @@
 body {
     background-color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 nav {
 
-    min-height: 1vh;
+    min-height: 50vh;
     background-color: teal;
-
 }
  section {
 
@@ -25,22 +25,30 @@ nav {
     margin: 0.5rem;
     padding: 1rem .5rem;
     background-color: aqua;
-    
+        justify-content: center;
+    align-items: center;
+
 }
 
-.register {
+.card-wrap {
+    padding:1rem;
+}
+
+.form-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    align-content: center;
-    background-color: aquamarine;
+    justify-content: center;
+    flex-direction: column;
+
+  //  background-color: aquamarine;
+    height: 13.8rem;
+
 }
 
 .form {
 
     width: 45rem;
-    height: 12rem;
+    height: 14rem;
     margin: 1rem;
     padding: 2rem 1rem;
     background-color: aqua;
@@ -57,5 +65,45 @@ nav {
 }
 .btn {
     width: 30rem;
+    height: 2rem;
+}
+
+footer {
+
+    min-height: 20vh;
+    background-color: teal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+
+.card-items {
+    margin: 1rem 0;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+.card-title {
+    text-transform: uppercase; 
+    font-weight: 900;
+}
+  
+.card-text {
+    font-weight: normal;
+}
+
+.card-btn {
+    font-weight: 800;
+    width: 15rem;
+    background-color:dodgerblue;
+    color: floralwhite;
     height: 2rem;
 }
