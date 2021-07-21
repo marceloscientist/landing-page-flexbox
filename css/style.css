@@ -4,9 +4,23 @@ body {
 }
 nav {
 
-    min-height: 50vh;
+    min-height: 100vh;
     background-color: teal;
+    background-image: url('../assets/img/jumbotron.jpg');
+    background-attachment: fixed;
+    background-position: 0rem 0rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.nav-content {
+    color: white;
+    padding: 5% 0 0 2%;
+}
+.nav-title {
+    font-size: 3rem;
+}
+
  section {
 
     background-color: cornflowerblue;
@@ -40,7 +54,7 @@ nav {
     justify-content: center;
     flex-direction: column;
 
-  //  background-color: aquamarine;
+  /*  background-color: aquamarine; */
     height: 13.8rem;
 
 }
